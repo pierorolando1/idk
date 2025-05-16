@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+  @apply bg-background text-foreground;
+}
+
+.page-container {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8;
+}
+
+.form-container {
+  @apply max-w-md mx-auto p-6 bg-content1 rounded-lg shadow-md;
+}
+
+.form-group {
+  @apply mb-4;
+}
+
+.form-title {
+  @apply text-2xl font-bold mb-6 text-center;
+}
+
+.table-container {
+  @apply overflow-x-auto;
+}
